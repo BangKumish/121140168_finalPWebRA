@@ -26,29 +26,38 @@ This project, demonstrates a server-side rendering approach using PHP. It focuse
 
 ## Capaian
 **Bagian 1: Client-side Programming (Bobot: 30%)**
--1.1 Buatlah sebuah halaman web sederhana yang memanfaatkan JavaScript untuk melakukan manipulasi DOM.
--1.2 Buatlah beberapa event untuk menghandle interaksi pada halaman web
+Saya membuat beberapa interaksi dengan menggunakan fitur DOM Javascript seperti membuat menghapus required pada form
 
 **Bagian 2: Server-side Programming (Bobot: 30%)**
--2.1 Implementasikan script PHP untuk mengelola data dari formulir pada Bagian 1 menggunakan variabel global seperti `$_POST` atau `$_GET`. Tampilkan hasil pengolahan data ke layar.
--2.2 Buatlah sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu pada halaman web Anda.
+Saya membuat script pHp menggunakan $_POST dan $_GET yang berguna untuk passing data saat proses CRUD
 
 **Bagian 3: Database Management (Bobot: 20%)**
--3.1 Buatlah sebuah tabel pada database MySQL
--3.2 Buatlah konfigurasi koneksi ke database MySQL pada file PHP. Pastikan koneksi berhasil dan dapat diakses.
--3.3 Lakukan manipulasi data pada tabel database dengan menggunakan query SQL. Misalnya, tambah data, ambil data, atau update data.
+Saya membuat sebuah database dengan menggunakan bantuan MariaDB dan membuat sistem CRUD sebagai management databae
 
 **Bagian 4: State Management (Bobot: 20%)**
--4.1 Buatlah skrip PHP yang menggunakan session untuk menyimpan dan mengelola state pengguna. Implementasikan logika yang memanfaatkan session.
--4.2 Implementasikan pengelolaan state menggunakan cookie dan browser storage pada sisi client menggunakan JavaScript.
+Saya membuat sebuah session menggunakan pHp yang menyimpan session saat melakukan aksi pada website
 
 **Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)**
 Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
 
-- Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-- Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
-- Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
-- Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+1. Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
+    - Mendaftar pada penyedia hosting, saya menggunakan 000webhost.com sebagai penyedia hosting
+    - Konfigurasi website dan database 
+    - Unggah file aplikasi menggunakan file manager yang telah disediakan jasa hosting
+
+2. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+    Saya memilih 000webhost.com sebagai penyedia hosting saya dikarenakan 000webhost.com menyediakan jasa hosting website secara gratis dan mampu melakukan hosting dengan database
+
+3. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+    Untuk memastikan keamanan aplikasi web saya, saya mengatur username dan password unik yang sulit ditebak agar mengurangi resiko terhacknya aplikasi web saya
+
+4. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+    Konfigurasi yang saya terapkan antara lain konfigurasi alamat website, dan konfigurasi database website
+
+
+
+
+
 
 This project serves as a learning example and can be further enhanced with additional features or improvements.
 
