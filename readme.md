@@ -4,7 +4,7 @@ This project is made to accomplish tugas besar mata kuliah Pemrograman Web RA In
 Nama: Andreas Sihotang
 NIM: 121140168
 
-live at: https://121140168uaspwebra.000webhostapp.com/
+**live at**: https://121140168uaspwebra.000webhostapp.com/
 
 ## Description
 This project, demonstrates a server-side rendering approach using PHP. It focuses on managing and displaying game data stored in a database.
